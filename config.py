@@ -1,5 +1,5 @@
 token = "916448783:AAHCjX-Siu0TMdc2tkESU611jNviCR25WVw"  # bot token
-botName = "KDq3CVM43w"  # bot username
+botName = "KDq3CVM43w_bot"  # bot username
 chatId = 442919871  # id of chat where bot should work
 
 # DB settings
