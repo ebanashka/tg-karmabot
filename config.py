@@ -11,12 +11,12 @@ password = "fedf24caea2072d0f7b9422b6b7b45f7dac025632c93c631a9cb5a3a19681acb"
 admins = [923083745, 0, 0]  # users ids that can use /ban and /unban commands
 
 helpText = """
-To *add karma*, reply with the phrase "Thank you" to the message of the person who helped you.
-\nTo *reduce karma*, reply with the phrase "Minus" to the message of who you want to reduce karma.
+чтобы *добавить реп*,ответь на респектовое сообщение фразой "Thank you" .
+\n чтобы *убрать реп*, ответь с фразой "Minus" тому кого хочешь минуснуть.
 
-\n/top20 - displays top 20 users with positive karma
-\n/untop20 - displays top 20 users with negative karma
-\n/help - help on bot commands
+\n/top20 - топ 20
+\n/untop20 - топ20 в минусе
+\n/help - это сообщение лол
 """
 
 # text for new users
