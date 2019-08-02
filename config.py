@@ -21,64 +21,64 @@ helpText = """
 
 # text for new users
 welcomeText = """
-Hey, @%s!
-\nWe are glad to see you in the chat.
-\nTell me something about yourself.
+привет, @%s!
+\nты хуесос
+\nиди в хуй.
 """
 
 # text for new users without username
 welcomeUser = """
-Hey, %s!
-\nWe are glad to see you in the chat.
-\nI noticed that you don't have a username :( Please set it, so that I can change your karma. Thank you!
-\nAnd now tell me something about yourself.
+привет, %s!
+\nты даже не хуесос
+\nу тебя нет логина блядь чтоб я мог считать твой реп, иди настройки себе логин @... в настрйоках бомж
+ 
 """
 
 # text for chat where bot don't work
 dontWork = "Sorry, but I don't work in this chat."
 
 # karma text for user without username
-notUsername = "Unfortunately, the user you thanked doesn't have a username, so I can't change his karma :("
+notUsername = "у педика нет логина, его карму не учесть :("
 
 # text for message without reply
-shouldReply = "@%s, you must respond to a message that helped you!"
-shouldReply2 = "@%s, you must respond to a message you didn't like!"
+shouldReply = "@%s, ты должен ответить на сообщение что помогло тебе!"
+shouldReply2 = "@%s, должено ответить на сообщение которое не понравилось!"
 
 # text with thanks to bot
-thxToBot = "@%s, always happy to help!"
+thxToBot = "@%s, семпай наполни меня!"
 
 # text with reduce karma to bot
-botMinus = "@%s, I don't have a karma!"
+botMinus = "@%s, семпай, за что(!"
 
 # text with karma to urself
-masturbate = "@%s, hey, you can't add karma to yourself!"
-unmasturbate = "@%s, why don't you love yourself? :("
+masturbate = "@%s, хахахах вот и шлюха спалилась!"
+unmasturbate = "@%s, любишь когда тебя унижают? :("
 
 # text to karma add
 karmaPlus = """
-Added karma to @%s
+Добавил реп @%s
 \n-------------------
-@%s has %d karma
+@%s теперь имеет: %d  реп
 """
 
 # text to reduce karma
 karmaMinus = """
-Reduces karma to @%s
+снизил реп @%s
 \n-------------------
-@%s has %d karma
+@%s теперь имеет: %d реп
 """
 
 # text for a ban for a little karma
-banForKarma = "@%s has -100 karma. He is banned."
+banForKarma = "@%s имеет -100 репа. Он заБАНен."
 
 # text for ban if user doesn't exist in DB
-cantBan = "There is no such user in my database, you can ban it only manually."
+cantBan = "нет пользака в бд."
 
 # text for unban if user doesn't exist in DB
-cantUnban = "There is no such user in my database, you can unban it only manually."
+cantUnban = "нет пользака в бд."
 
 # text for ban
-banned = "Banned"
+banned = "забанен"
 
 # text for unban
-unbanned = "Unbanned"
+unbanned = "разбанен"
