@@ -51,8 +51,8 @@ thxToBot = "@%s, семпай наполни меня!"
 botMinus = "@%s, семпай, за что(!"
 
 # text with karma to urself
-masturbate = "@%s, хахахах вот и шлюха спалилась!"
-unmasturbate = "@%s, любишь когда тебя унижают? :("
+masturbate = "@%s дрочит на себя, шлюшка!"
+unmasturbate = "@%s попрыгал на страпоне "
 
 # text to karma add
 karmaPlus = """
