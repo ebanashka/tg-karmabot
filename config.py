@@ -1,5 +1,5 @@
-token = ""  # bot token
-botName = ""  # bot username
+token = "916448783:AAHCjX-Siu0TMdc2tkESU611jNviCR25WVw"  # bot token
+botName = "KDq3CVM43w"  # bot username
 chatId = -1001182112156  # id of chat where bot should work
 
 # DB settings
@@ -8,7 +8,7 @@ host = "ec2-67-154-119-214.eu-west-1.compute.amazonaws.com"
 user = "keshandyandhg"
 password = "0c2gbb1983776f19837ddaf1218736661b30dc1b8e198739bdde0dd7a7b04ad"
 
-admins = [183654961, 0, 0]  # users ids that can use /ban and /unban commands
+admins = [923083745, 0, 0]  # users ids that can use /ban and /unban commands
 
 helpText = """
 To *add karma*, reply with the phrase "Thank you" to the message of the person who helped you.
