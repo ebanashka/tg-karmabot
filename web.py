@@ -71,7 +71,7 @@ def karma_plus(kp):
         bot.send_message(kp.chat.id, parse_mode='Markdown', text=dontWork)
 
 
-@bot.message_handler(regexp="-реп")
+@bot.message_handler(regexp="rep")
 def karma_minus(km):
     if km.chat.id == chatId:
         username = km.from_user.username
