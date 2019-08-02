@@ -10,7 +10,7 @@ from flask import Flask
 sys.path.append('./karmabot')
 
 from config import token, botName, chatId, admins, database, host, user, password
-from config import helpText, welcomeText, welcomeUser, dontWork, notUsername, shouldReply, thxToBot, botMinus, \
+from config import helpText, welcomeText, welcomeUser, dontWork, notUsername, shouldReply, shouldReply2, thxToBot, botMinus, \
     masturbate, unmasturbate, karmaPlus, karmaMinus, banForKarma, cantBan, \
     cantUnban, banned, unbanned
 from db_control import DB, UsersModel, KarmaModel
