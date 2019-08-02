@@ -88,16 +88,16 @@ class KarmaModel:
         cursor.execute("SELECT COUNT(*) FROM karma")
         count = int(cursor.fetchone()[0])
         if count == 0:
-            return "There is no users in database"
+            return "Нет пользователя в бд"
         else:
             if count > 20:
                 count = 20
-            top_list = "Top people with positive karma: "
+            top_list = "Лучшие с позитивным репом: "
             cursor.execute("SELECT * FROM karma ORDER BY karma DESC LIMIT 20")
             top20 = cursor.fetchall()
             for i in range(count):
-                top_list += "\n" + str(int(i + 1)) + ". @" + "[" + str(top20[i][1]) + "]" + " with " + str(
-                    top20[i][2]) + " karma"
+                top_list += "\n" + str(int(i + 1)) + ". @" + "[" + str(top20[i][1]) + "]" + " с репом " + str(
+                    top20[i][2]) + "."
             return top_list
 
     def untop20(self):
@@ -105,14 +105,14 @@ class KarmaModel:
         cursor.execute("SELECT COUNT(*) FROM karma")
         count = int(cursor.fetchone()[0])
         if count == 0:
-            return "There is no users in database"
+            return "Нет в бд"
         else:
             if count > 20:
                 count = 20
-            top_list = "Top people with nigative karma: "
+            top_list = "Отсосники: "
             cursor.execute("SELECT * FROM karma ORDER BY karma LIMIT 20")
             top20 = cursor.fetchall()
             for i in range(count):
-                top_list += "\n" + str(int(i + 1)) + ". @" + "[" + str(top20[i][1]) + "]" + " with " + str(
-                    top20[i][2]) + " karma"
+                top_list += "\n" + str(int(i + 1)) + ". @" + "[" + str(top20[i][1]) + "]" + " с репом " + str(
+                    top20[i][2]) + "."
             return top_list
