@@ -76,7 +76,7 @@ def karma_minus(km):
     if km.chat.id == chatId:
         username = km.from_user.username
         if km.reply_to_message is None:
-            bot.send_message(km.chat.id, parse_mode='Markdown', text=shouldReply % username)
+            bot.send_message(km.chat.id, parse_mode='Markdown', text=shouldReply2 % username)
         else:
             if km.reply_to_message.from_user.username is None:
                 bot.send_message(km.chat.id, text=notUsername)
