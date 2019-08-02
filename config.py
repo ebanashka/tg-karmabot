@@ -1,4 +1,4 @@
-token = "916448783:AAHCjX-Siu0TMdc2tkESU611jNviCR25WVw"  # bot token
+token = ""  # bot token
 botName = "KDq3CVM43w_bot"  # bot username
 chatId = -278344922  # id of chat where bot should work
 
