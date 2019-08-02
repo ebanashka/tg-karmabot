@@ -176,6 +176,6 @@ def getMessage():
 
 bot.remove_webhook()
 sleep(1)
-bot.set_webhook(url="https://karmabot.herokuapp.com/%s/" % token)
+bot.set_webhook(url="https://tg-karma-bot-nahuy.herokuapp.com/%s/" % token)
 
 server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 80)), debug=True)
