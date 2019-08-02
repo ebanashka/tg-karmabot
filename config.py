@@ -1,12 +1,12 @@
 token = "916448783:AAHCjX-Siu0TMdc2tkESU611jNviCR25WVw"  # bot token
 botName = "KDq3CVM43w"  # bot username
-chatId = -1001182112156  # id of chat where bot should work
+chatId = 442919871  # id of chat where bot should work
 
 # DB settings
-database = "bnf747l6otb4n"
-host = "ec2-67-154-119-214.eu-west-1.compute.amazonaws.com"
-user = "keshandyandhg"
-password = "0c2gbb1983776f19837ddaf1218736661b30dc1b8e198739bdde0dd7a7b04ad"
+database = "d5r90gpedannss"
+host = "ec2-54-217-219-235.eu-west-1.compute.amazonaws.com"
+user = "gkutectlapyvny"
+password = "fedf24caea2072d0f7b9422b6b7b45f7dac025632c93c631a9cb5a3a19681acb"
 
 admins = [923083745, 0, 0]  # users ids that can use /ban and /unban commands
 
